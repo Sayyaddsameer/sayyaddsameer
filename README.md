@@ -1,6 +1,10 @@
 # Hi there, I'm Sameer Sayyad 👋
 
-I'm a developer who loves to build, automate, and optimize. My passion lies in engineering scalable backend systems and leveraging the power of AWS to create cost-efficient, serverless solutions.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=22&pause=1000&color=0079C1&center=true&vCenter=true&width=800&lines=I'm+a+developer+who+loves+to+build,+automate,+and+optimize.;My+passion+is+engineering+scalable+backend+systems...;...and+leveraging+AWS+for+cost-efficient,+serverless+solutions." alt="Typing SVG" />
+  </a>
+</p>
 
 <br/>
 
