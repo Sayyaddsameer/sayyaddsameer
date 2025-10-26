@@ -32,8 +32,8 @@ I'm a developer who loves to build, automate, and optimize. My passion lies in e
   </a>
 </p>
 
-    </td>
-    <td valign="top" width="40%">
+  </td>
+  <td valign="top" width="40%">
       
 <!-- GitHub Stats Card -->
 <img src="https://github-readme-stats.vercel.app/api?username=Sayyaddsameer&show_icons=true&theme=transparent&hide_border=true&title_color=0079C1&icon_color=0079C1" alt="Sameer Sayyad's GitHub Stats" />
@@ -43,7 +43,7 @@ I'm a developer who loves to build, automate, and optimize. My passion lies in e
 <!-- Top Languages Card -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sayyaddsameer&layout=compact&theme=transparent&hide_border=true&title_color=0079C1" alt="Top Languages" />
       
-    </td>
+  </td>
   </tr>
 </table>
 
