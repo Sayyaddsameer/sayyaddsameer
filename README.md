@@ -61,18 +61,16 @@
     <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces">
   </a>
 </p>
-  </td>
-  <td valign="top" width="40%">
+    </td>
+    <td valign="top" width="40%">
       
-<!-- GitHub Stats Card -->
 <img src="https://github-readme-stats.vercel.app/api?username=Sayyaddsameer&show_icons=true&theme=transparent&hide_border=true&title_color=0079C1&icon_color=0079C1&include_all_commits=true&show_rank=true" alt="Sameer Sayyad's GitHub Stats" />
 
 <br/>
       
-<!-- Top Languages Card -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sayyaddsameer&layout=compact&theme=transparent&hide_border=true&title_color=0079C1" alt="Top Languages" />
       
-  </td>
+    </td>
   </tr>
 </table>
 
