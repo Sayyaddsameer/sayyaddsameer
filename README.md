@@ -65,7 +65,7 @@
   <td valign="top" width="40%">
       
 <!-- GitHub Stats Card -->
-<img src="https://github-readme-stats.vercel.app/api?username=Sayyaddsameer&show_icons=true&theme=transparent&hide_border=true&title_color=0079C1&icon_color=0079C1&include_all_commits=false&show_rank=true" alt="Sameer Sayyad's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Sayyaddsameer&show_icons=true&theme=transparent&hide_border=true&title_color=0079C1&icon_color=0079C1&include_all_commits=true&show_rank=true" alt="Sameer Sayyad's GitHub Stats" />
 
 <br/>
       
