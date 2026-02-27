@@ -3,7 +3,7 @@
   
   <br/>
 
-  <a href="https://2dubub6pbj.execute-api.us-east-1.amazonaws.com/start" target="_blank">
+  <a href="https://sameer-portfolio-phi.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/View_My_Portfolio-FF5722?style=for-the-badge&logo=HTML5&logoColor=white" height="30">
   </a>
   <a href="https://www.linkedin.com/in/sameer-sayyad-673820291/" target="_blank">
