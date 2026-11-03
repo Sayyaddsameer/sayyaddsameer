@@ -1,138 +1,115 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=4F46E5&center=true&vCenter=true&width=800&lines=AWS+Certified+Developer;Cloud+%26+Backend+Engineer;Serverless+Architecture+Builder;DevOps+Practitioner" />
+```
+$ whoami
+```
 
+# Sameer Sayyad
+
+**Cloud & Backend Engineer** who builds serverless systems on AWS that scale without burning money.
+
+AWS Certified Developer – Associate · RHCSA · 18 Projects · 400+ DSA Problems
+
+<a href="https://sameer-portfolio-phi.vercel.app/">
+<img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=vercel&logoColor=white">
+</a>&nbsp;
+<a href="https://www.linkedin.com/in/sayyad-sameer-m3/">
+<img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>&nbsp;
+<a href="mailto:sayyadsameerm3@gmail.com">
+<img src="https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</div>
+
+---
+
+### What I actually do
+
+I take vague backend problems and turn them into event-driven AWS systems — Lambda functions that chain cleanly, DynamoDB tables with the right access patterns, Step Functions that orchestrate without falling over. I care about the boring parts: idempotency, least-privilege IAM, cold-start times, and making sure things fail gracefully instead of silently.
+
+Most of my work is in **Python**, deployed with **Docker** and **Terraform**, running on **AWS serverless**.
+
+---
+
+### What I build with
+
+```
+Cloud        → Lambda · API Gateway · DynamoDB · S3 · Step Functions · SQS/SNS · MSK · ECS Fargate
+DevOps       → Docker · Terraform · Kubernetes (k3s) · GitHub Actions · AWS SAM
+Backend      → Python · FastAPI · SQLAlchemy · asyncpg · aiokafka
+Systems      → Linux (RHEL) · Bash · IAM · KMS · VPC Networking
+Languages    → Python · Java · C++ · C · SQL
+```
+
+---
+
+### Projects worth looking at
+
+| Project | What it does | Stack |
+|:--------|:-------------|:------|
+| [**CloudSentinel AI**](https://github.com/Sayyaddsameer/CloudSentinel_AI) | Multi-cloud security scanner — 5 parallel domain scanners orchestrated by Step Functions, with Llama 3.3 generating remediation steps. Won **Best AI Integration** (160 teams). | Step Functions · Lambda · Groq/Llama · Terraform |
+| [**Order Processing System**](https://github.com/Sayyaddsameer/order_processing_system_with_aws) | Async order pipeline (API GW → Lambda → SQS → Lambda → SNS) with database-backed idempotency and DLQ routing. Zero duplicate orders. | Lambda · SQS · SNS · PostgreSQL · SAM |
+| [**Kafka EDA**](https://github.com/Sayyaddsameer/kafka-eda-aws) | Fault-tolerant event streaming on MSK with containerised producers/consumers on ECS Fargate. Exactly-once processing via PostgreSQL dedup. | MSK · ECS Fargate · aiokafka · Terraform |
+| [**FinTech IaC**](https://github.com/Sayyaddsameer/fintech-infra) | Bank-grade infrastructure as code — KMS key rotation, zero-wildcard IAM, S3 public access block, 248-line Bash compliance audit (7/7 passing). | Terraform · KMS · IAM · Bash |
+| [**E-Commerce Order API**](https://github.com/Sayyaddsameer/ecommerce-order-api) | Concurrency-safe REST API — optimistic locking via version columns eliminates race conditions without table locks. 9 integration tests. | FastAPI · PostgreSQL · SQLAlchemy · Pytest |
+| [**HireFusion AI**](https://github.com/Sayyaddsameer/HireFusionAI) | Serverless resume screening + interview evaluation — Textract OCR, Comprehend NLP, Rekognition facial analysis, all triggered by S3 uploads. | Lambda · Textract · Comprehend · DynamoDB |
+
+<details>
+<summary><b>See all 49 repos →</b></summary>
 <br>
 
-<a href="https://sameer-portfolio-phi.vercel.app/" target="_blank">
-<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
+More projects covering data pipelines, container benchmarks, auth services, content delivery APIs, ML feature stores, streaming pipelines, and more.
 
-<a href="https://www.linkedin.com/in/sameer-sayyad-673820291/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
+**[Browse all repositories →](https://github.com/Sayyaddsameer?tab=repositories&sort=updated)**
 
-<a href="mailto:sayyadsameerM3@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</div>
+</details>
 
 ---
 
-# Profile
-
-AWS Certified Developer – Associate and Computer Science student focused on **cloud-native backend systems and serverless architectures**.
-
-I enjoy building scalable applications on AWS using **Lambda, API Gateway, DynamoDB, and containerized services** while applying DevOps practices such as **Docker and Infrastructure as Code**.
-
-My work focuses on translating **real-world workflows into reliable, event-driven cloud systems**.
-
-**Focus Areas**
-
-- Serverless Architectures (AWS Lambda, Step Functions)
-- Cloud-Native Backend Systems
-- Infrastructure Automation (Docker / Terraform)
-- Scalable Distributed Systems
-
----
-
-# Highlights
-
-- AWS Certified Developer – Associate  
-- Red Hat Certified System Administrator (RHCSA)  
-- Built multiple **serverless architectures on AWS**  
-- Solved **200+ DSA problems** across competitive coding platforms  
-
----
-
-# Featured Cloud Projects
-
-### Serverless ATS
-Event-driven hiring workflow built using AWS Lambda, Step Functions, SQS and PostgreSQL.
-
-Tech Stack  
-AWS Lambda • Step Functions • SQS • API Gateway • RDS
-
----
-
-### HireFusion AI
-AI-powered candidate evaluation system integrating multiple AWS AI services.
-
-Tech Stack  
-AWS Textract • Rekognition • Transcribe • Comprehend • DynamoDB
-
----
-
-### Cloud Native Blog API
-Containerized FastAPI backend deployed with AWS Lambda and RDS.
-
-Tech Stack  
-FastAPI • Docker • AWS Lambda • SQLAlchemy
-
----
-
-# Technical Arsenal
-
-<div align="center">
-
-| Cloud & DevOps | Languages & Backend |
-| :--- | :--- |
-| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) <br> ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) <br> ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-
-</div>
-
----
-
-# Coding & Activity
+### Coding stats
 
 <div align="center">
 
 <a href="https://leetcode.com/u/sayyadsameerm3/">
-<img src="https://leetcode-stats-six.vercel.app/api?username=sayyadsameerm3&theme=dark" />
+<img src="https://leetcode-stats-six.vercel.app/api?username=sayyadsameerm3&theme=dark" height="180">
 </a>
 
 <br><br>
 
-<a href="https://www.geeksforgeeks.org/user/sayyadsameer/">
-<img src="https://img.shields.io/badge/GeeksForGeeks-Profile-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white">
-</a>
-
-<a href="https://www.hackerrank.com/profile/sayyadsameerm3">
-<img src="https://img.shields.io/badge/HackerRank-4★-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black">
-</a>
-
-<a href="https://www.codechef.com/users/sayyadsameer">
-<img src="https://img.shields.io/badge/CodeChef-2★-5B4638?style=for-the-badge&logo=codechef&logoColor=white">
-</a>
-
-<a href="https://codeforces.com/profile/sayyad_sameer">
-<img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white">
-</a>
+<a href="https://www.codechef.com/users/sayyadsameer"><img src="https://img.shields.io/badge/CodeChef-2★_·_1417-5B4638?style=flat-square&logo=codechef&logoColor=white"></a>&nbsp;
+<a href="https://codeforces.com/profile/sayyad_sameer"><img src="https://img.shields.io/badge/Codeforces-880-1F8ACB?style=flat-square&logo=codeforces&logoColor=white"></a>&nbsp;
+<a href="https://www.geeksforgeeks.org/user/sayyadsameer/"><img src="https://img.shields.io/badge/GFG-115_solved-298D46?style=flat-square&logo=geeksforgeeks&logoColor=white"></a>&nbsp;
+<a href="https://www.hackerrank.com/profile/sayyadsameerm3"><img src="https://img.shields.io/badge/HackerRank-6_badges-00EA64?style=flat-square&logo=hackerrank&logoColor=black"></a>
 
 </div>
 
 ---
 
-# Certifications
+### GitHub activity
 
 <div align="center">
 
-| Cloud Certifications | Development Certifications |
-| :---: | :---: |
-| [![AWS Developer](https://img.shields.io/badge/AWS-Certified%20Developer%20Associate-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/ac239a82-00c9-4c23-bccd-70e0de189f91/public_url) | [![Java](https://img.shields.io/badge/Oracle-Java%20Associate-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com/) |
-| [![RHCSA](https://img.shields.io/badge/Red%20Hat-RHCSA-EE0000?style=flat-square&logo=redhat&logoColor=white)](https://www.credly.com/badges/f2cfa6d9-8f36-46a4-871f-8a6c0ee89f2f/public_url) | [![HTML/CSS](https://img.shields.io/badge/Certiport-HTML%20%26%20CSS-E34F26?style=flat-square&logo=html5&logoColor=white)](https://www.credly.com/badges/71367d89-76ba-4fb4-a26d-b7e2fa17355f/public_url) |
+<img src="https://github-readme-stats.vercel.app/api?username=Sayyaddsameer&show_icons=true&theme=github_dark&hide_border=true&hide_title=true&count_private=true" height="160">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Sayyaddsameer&theme=github-dark-blue&hide_border=true" height="160">
+
+</div>
+
+---
+
+### Certifications
+
+<div align="center">
+
+[![AWS CDA](https://img.shields.io/badge/AWS-Certified_Developer_Associate-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/ac239a82-00c9-4c23-bccd-70e0de189f91/public_url)&nbsp;&nbsp;
+[![RHCSA](https://img.shields.io/badge/Red_Hat-RHCSA-EE0000?style=flat-square&logo=redhat&logoColor=white)](https://www.credly.com/badges/f2cfa6d9-8f36-46a4-871f-8a6c0ee89f2f/public_url)&nbsp;&nbsp;
+[![Java](https://img.shields.io/badge/Oracle-Java_Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)](https://catalog-education.oracle.com/)&nbsp;&nbsp;
+[![HTML/CSS](https://img.shields.io/badge/Certiport-HTML_&_CSS-E34F26?style=flat-square&logo=html5&logoColor=white)](https://www.credly.com/badges/71367d89-76ba-4fb4-a26d-b7e2fa17355f/public_url)
 
 </div>
 
 ---
 
 <div align="center">
-
-### Engineering Philosophy
-
-*Automate everything.*  
-*Design for failure.*  
-*Build systems that scale.*
-
+<sub>I build systems that work when no one's watching.</sub>
 </div>
