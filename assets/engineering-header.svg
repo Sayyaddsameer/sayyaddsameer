@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">Sayyad Sameer — Cloud and Backend Engineering</title>
+  <desc id="desc">A dark editorial banner with a backend request flow from API to queue to worker to database.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080D18"/><stop offset=".55" stop-color="#0C1728"/><stop offset="1" stop-color="#111F31"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A0F1D2"/><stop offset="1" stop-color="#5BD6BD"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A9BCFF"/><stop offset="1" stop-color="#708EFF"/></linearGradient>
+    <radialGradient id="glow1"><stop stop-color="#50D6B7" stop-opacity=".19"/><stop offset="1" stop-color="#50D6B7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop stop-color="#819BFF" stop-opacity=".17"/><stop offset="1" stop-color="#819BFF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#A6B8D0" stroke-opacity=".05"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="380" rx="24" fill="url(#grid)"/>
+  <circle cx="1080" cy="52" r="320" fill="url(#glow1)"/>
+  <circle cx="785" cy="390" r="280" fill="url(#glow2)"/>
+  <path d="M48 309H1232" stroke="#9FB3CD" stroke-opacity=".14"/>
+  <path d="M48 309H430" stroke="url(#mint)" stroke-width="2" stroke-opacity=".85"/>
+
+  <g transform="translate(62 47)">
+    <rect width="242" height="29" rx="14.5" fill="#15283A" stroke="#5ED7C2" stroke-opacity=".55"/>
+    <circle cx="16" cy="14.5" r="3.5" fill="#8BE9C9"/>
+    <text x="30" y="19" fill="#B9C9DC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.6">SAYYAD SAMEER / FIELD NOTES</text>
+  </g>
+
+  <text x="59" y="158" fill="#F4F7FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="66" font-weight="720" letter-spacing="-2.8"><tspan fill="url(#mint)">Sayyad</tspan><tspan dx="15">Sameer</tspan></text>
+  <text x="64" y="202" fill="#B8C7DA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="1.25">CLOUD SYSTEMS  /  BACKEND ENGINEERING</text>
+  <text x="64" y="245" fill="#91A4BD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16.5">I build to understand what happens at the edges:</text>
+  <text x="64" y="270" fill="#91A4BD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16.5">duplicate events, competing writes, growing workloads, and access boundaries.</text>
+
+  <g transform="translate(704 66)">
+    <rect width="520" height="220" rx="19" fill="#0D1929" fill-opacity=".94" stroke="#8198B8" stroke-opacity=".29"/>
+    <path d="M1 51H519" stroke="#8198B8" stroke-opacity=".18"/>
+    <text x="24" y="32" fill="#9DAFC7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.6">A BACKEND REQUEST, IN MOTION</text>
+    <g transform="translate(390 17)"><circle cx="0" cy="8" r="3.5" fill="#8BE9C9" filter="url(#glow)"/><text x="11" y="12" fill="#7FCDB7" font-family="ui-monospace, monospace" font-size="9.5" letter-spacing="1.1">ASYNC FLOW</text></g>
+
+    <path d="M102 117H151 M225 117H274 M348 117H397" stroke="#7389A8" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M144 112L151 117L144 122 M267 112L274 117L267 122 M390 112L397 117L390 122" fill="none" stroke="#7389A8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g transform="translate(29 78)">
+      <rect width="73" height="77" rx="12" fill="#182941" stroke="#8199BE" stroke-opacity=".85"/>
+      <path d="M20 23H53 M20 35H47 M20 47H50" stroke="#B6C7E0" stroke-width="2.6" stroke-linecap="round"/>
+      <text x="36.5" y="98" text-anchor="middle" fill="#B1C0D5" font-family="ui-monospace, monospace" font-size="9.5" letter-spacing="1.1">API</text>
+    </g>
+    <g transform="translate(151 78)">
+      <rect width="74" height="77" rx="12" fill="#16343A" stroke="#72DCC4" stroke-opacity=".95"/>
+      <path d="M19 24H55 M19 38H55 M19 52H55" stroke="#8AE8CF" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="37" cy="38" r="4" fill="#C4F8E6"/>
+      <text x="37" y="98" text-anchor="middle" fill="#9ADCCB" font-family="ui-monospace, monospace" font-size="9.5" letter-spacing="1.1">QUEUE</text>
+    </g>
+    <g transform="translate(274 78)">
+      <rect width="74" height="77" rx="12" fill="#222C4B" stroke="#8EA7FF" stroke-opacity=".95"/>
+      <rect x="23" y="25" width="28" height="27" rx="4" fill="none" stroke="#B2C2FF" stroke-width="2"/>
+      <path d="M29 19V25 M45 19V25 M29 52V58 M45 52V58 M17 32H23 M51 32H57 M17 45H23 M51 45H57" stroke="#B2C2FF" stroke-width="2" stroke-linecap="round"/>
+      <text x="37" y="98" text-anchor="middle" fill="#B4C2F2" font-family="ui-monospace, monospace" font-size="9.5" letter-spacing="1.1">WORKER</text>
+    </g>
+    <g transform="translate(397 78)">
+      <rect width="94" height="77" rx="12" fill="#182941" stroke="#8199BE" stroke-opacity=".85"/>
+      <ellipse cx="47" cy="25" rx="19" ry="7" fill="none" stroke="#B6C7E0" stroke-width="2.2"/>
+      <path d="M28 25V49C28 59 66 59 66 49V25 M28 38C28 48 66 48 66 38" fill="none" stroke="#B6C7E0" stroke-width="2.2"/>
+      <text x="47" y="98" text-anchor="middle" fill="#B1C0D5" font-family="ui-monospace, monospace" font-size="9.5" letter-spacing="1.1">DATABASE</text>
+    </g>
+
+    <path d="M24 189H496" stroke="#8198B8" stroke-opacity=".16"/>
+    <g transform="translate(30 205)">
+      <circle cx="0" cy="0" r="3" fill="#8BE9C9"/><text x="10" y="3.5" fill="#8195AF" font-family="ui-monospace, monospace" font-size="9.2" letter-spacing="1">RETRY-SAFE</text>
+      <circle cx="158" cy="0" r="3" fill="#A5B9FF"/><text x="168" y="3.5" fill="#8195AF" font-family="ui-monospace, monospace" font-size="9.2" letter-spacing="1">IDEMPOTENT</text>
+      <circle cx="319" cy="0" r="3" fill="#8BE9C9"/><text x="329" y="3.5" fill="#8195AF" font-family="ui-monospace, monospace" font-size="9.2" letter-spacing="1">OBSERVABLE</text>
+    </g>
+  </g>
+
+  <text x="64" y="349" fill="#7D91AD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.3">PYTHON  /  AWS  /  POSTGRESQL  /  TERRAFORM</text>
+  <text x="1216" y="349" text-anchor="end" fill="#647995" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.5">CSE 2027</text>
+</svg>
